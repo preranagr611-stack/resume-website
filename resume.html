@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prerana R - Resume Website</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      color: #fff;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .photo-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .profile-photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+      transition: transform 0.3s ease;
+    }
+    .profile-photo:hover {
+      transform: scale(1.08);
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      border-left: 5px solid #8ec5fc;
+      padding-left: 10px;
+      color: #333;
+      margin-top: 30px;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 25px;
+    }
+    .download-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+      color: #000;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .download-btn:hover {
+      background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prerana R</h1>
+    <p>3rd Year - Computer Science and Engineering</p>
+    <div class="photo-container">
+      <img src="C:\Users\prera\Downloads\photo.jpg" alt="Profile Photo" class="profile-photo">
+    </div>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! I'm Prerana R, a passionate Computer Science student with an interest
+        in web development, creativity, and design. I love learning and building modern, user-friendly websites.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Web Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Personal Resume Website (this one!)</li>
+        <li>Library Management System using Java</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: preranar@example.com</p>
+      <p>Phone: +91 9876543210</p>
+    </section>
+
+    <section>
+      <h2>Download Resume</h2>
+      <a href="Prerana_Resume.pdf" class="download-btn" download>Download My Resume</a>
+    </section>
+  </div>
+</body>
+</html>
